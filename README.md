@@ -19,14 +19,9 @@ The goal is to give business, marketing, and risk stakeholders a single, filtera
 
 ## 🛠️ Tech Stack
 
-| Layer | Tool |
-|---|---|
-| Data modeling & transformation | Power Query (M) within Power BI Desktop |
-| Data model | Power BI (Import mode), star-schema relationship between fact and dimension tables |
-| Visualization | Power BI Desktop (report canvas, DAX measures, custom theme) |
-| File format | `.pbix` (Power BI Desktop file) |
-
----
+Data modeling & transformation - Power Query within Power BI Desktop 
+Data model - Power BI (Import mode), star-schema relationship between fact and dimension tables 
+Visualization - Power BI Desktop
 
 ## 🗄️ Data Source
 
@@ -59,8 +54,6 @@ The model is built on two related tables:
 | `Cust_Satisfaction_Score` | Customer satisfaction score (CSS) |
 
 `cc_detail` and `cust_detail` are related on a shared customer key, so every transaction-level metric (Revenue, Interest Earned, etc.) can be sliced by any customer attribute.
-
-> Update this section with your actual source system (e.g. data warehouse table, CSV export, API) and refresh cadence.
 
 ---
 
@@ -105,9 +98,4 @@ Provide a single interactive dashboard that:
 
 <img width="1287" height="726" alt="image" src="https://github.com/user-attachments/assets/345580cc-1fe4-43a9-8a82-6c87a0060ced" />
 <img width="1291" height="722" alt="image" src="https://github.com/user-attachments/assets/f2c3b8de-826a-434e-8085-bbd917ab3100" />
-
-
-```
-docs/screenshots/cc-transaction-page.png
-docs/screenshots/cc-customer-page.png
 
