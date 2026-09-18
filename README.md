@@ -103,38 +103,11 @@ Provide a single interactive dashboard that:
 
 ## 📸 Screenshots
 
-> Add screenshots of each report page here so viewers can preview the dashboard without opening the `.pbix` file.
+<img width="1287" height="726" alt="image" src="https://github.com/user-attachments/assets/345580cc-1fe4-43a9-8a82-6c87a0060ced" />
+<img width="1291" height="722" alt="image" src="https://github.com/user-attachments/assets/f2c3b8de-826a-434e-8085-bbd917ab3100" />
+
 
 ```
 docs/screenshots/cc-transaction-page.png
 docs/screenshots/cc-customer-page.png
-```
 
-```markdown
-![CC Transaction page](docs/screenshots/cc-transaction-page.png)
-![CC Customer page](docs/screenshots/cc-customer-page.png)
-```
-
-To capture them: open `Credit_Card_Transaction_Dashboard.pbix` in Power BI Desktop, go to each page, and use **File → Export → Export to image** (or a screen capture), then drop the images into a `docs/screenshots/` folder in this repo and update the paths above.
-
----
-
-## 🚀 Getting Started
-
-1. Clone this repository.
-2. Open `Credit_Card_Transaction_Dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-3. Update/refresh the data source connection(s) if prompted.
-4. Use the slicers at the top of each page to filter the report.
-5. Switch between the **CC Transaction** and **CC Customer** pages using the tabs at the bottom.
-
-## 📁 Repository Contents
-
-| File | Description |
-|---|---|
-| `Credit_Card_Transaction_Dashboard.pbix` | The Power BI report file |
-| `README.md` | This file |
-| `docs/Dashboard_Documentation.docx` | Detailed component-by-component documentation |
-
-## 📄 License
-
-Add your license of choice here (e.g. MIT).
